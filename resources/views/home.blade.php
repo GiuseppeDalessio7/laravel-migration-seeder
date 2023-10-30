@@ -44,7 +44,7 @@
                                 @elseif ($train->Cancellato)
                                     <strong>Treno Cancellato</strong>
                                 @else
-                                    <div><strong>Stato:</strong> In ritardo</div>
+                                    <div><strong>Stato :</strong> In ritardo</div>
                                 @endif
                             </div>
                             {{-- /.card-body --}}
