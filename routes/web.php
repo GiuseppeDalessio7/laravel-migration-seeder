@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Guests\PageController;
+use App\Models\Train;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,8 @@ use App\Http\Controllers\Guests\PageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+// Route::get('/', function () {
+//     return view('welcome');
+// })->name('home');
 
 Route::get('/', [PageController::class, 'index'])->name('home');
